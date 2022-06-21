@@ -1,0 +1,36 @@
+git config --global user.name "Golo Bala"
+
+git config --global user.email email
+
+git config --global color.diff auto
+
+git config --global color.status auto
+
+git config --global color.branch auto
+
+git config --global core.editor vim
+
+git config --global merge.tool vimdiff
+
+git init
+
+git config --list 
+
+=============
+git status	// voir l'etat des fichiers modifiés à l'Etape WD
+
+git add fichiers	// Ajout des fichiers modifiés à l'Etape Stage ou Index
+
+git commit -m "Ajout des fichers html et CSS de base" 	// Commit des fichiers ou creation d'une version (archiver)
+
+git remote add origin https://github.com/ 	//Ajout du repos en local
+
+git branch -M main 	// Changer de branche et relie le repos local au repos distant
+
+git push -u origin main --force 	// Pusher ou envoyer le commit ou l'archive ou cette version sur le repos distant
+
+git branch 	// Connaitre les branches
+
+git branch nomDeLaBranche
+
+git checkout nomDeLaBranche 	// Changer de branche
